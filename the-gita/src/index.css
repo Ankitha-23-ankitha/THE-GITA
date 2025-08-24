@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: "Mate SC", serif;
+}
+
+.bgParch{
+    background-image: url('/public/images/Parch1.png');
+}
+
+.borderImg {
+    border: 35px solid black;
+    border-image: url('/public/images/B3.jpg') 13% repeat;
+}
+
+.mask{
+    font-family: 'Lobster', sans-serif;
+}
+
+.lineWrap{
+    white-space: pre-wrap;
+}
+
+.verse{
+    font-family: 'Noto Serif Devanagari', serif;
+}
+
+
+.hero{
+    font-family: 'Amita', serif;
+}
+
+@media only screen and (max-width: 48rem) {
+  .borderImg{
+    border: 20px solid black;
+    border-image: url('/public/images/B3.jpg') 13% repeat;
+  }
+}
